@@ -1,0 +1,14 @@
+function getFromUrl(x){
+ return new Promise(function(f,i){//resolve,reject
+	const o=new XMLHttpRequest();
+	o.open('GET',x,true);
+	o.onreadystatechange=function(e){
+	 if(o.readyState===4){
+		const s=this.status;
+		if(s!==0&&s!==200&&s!==304){i(new Error(s+'|'+x));}else{f(e.target.response);};
+	 };
+	};
+	o.send(null);
+ });
+}
+//
