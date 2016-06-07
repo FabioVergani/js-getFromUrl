@@ -1,4 +1,3 @@
-# js-getFromUrl
 # Readystate
 
 0  UNSENT			➤ Client has been created. ('open' not called yet)
