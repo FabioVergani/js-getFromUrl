@@ -1,5 +1,5 @@
 # js-getFromUrl
-§Readystate:
+# Readystate
 
 0  UNSENT			➤ Client has been created. ('open' not called yet)
 
@@ -12,7 +12,9 @@
 4  DONE				➤The operation is complete.
 
 
-§HttpStatusCode (0:NSHTTPURLResponse)
+# HttpStatusCode
+
+(0:NSHTTPURLResponse)
 
 Informational
 
