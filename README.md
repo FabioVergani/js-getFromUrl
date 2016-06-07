@@ -1,23 +1,25 @@
 # js-getFromUrl
 §Readystate:
 
-#0  UNSENT              ➤ Client has been created. ('open' not called yet)
+0  UNSENT              ➤ Client has been created. ('open' not called yet)
 
-#1  OPENED              ➤ Called: 'open'.
+1  OPENED              ➤ Called: 'open'.
 
-#2  HEADERS_RECEIVED    ➤ Called: 'end'. (headers and status are available)
+2  HEADERS_RECEIVED    ➤ Called: 'end'. (headers and status are available)
 
-#3  LOADING             ➤ Downloading. (responseText holds partial data)
+3  LOADING             ➤ Downloading. (responseText holds partial data)
 
-#4  DONE                ➤The operation is complete.
+4  DONE                ➤The operation is complete.
+
+
 §HttpStatusCode (0:NSHTTPURLResponse)
 
-#Informational
+Informational
 
     100: Continue
     101: Switching Protocols
 
-#Successful
+Successful
 
 ➤  200: OK
     201: Created
@@ -28,7 +30,7 @@
     206: Partial Content
     207: Multi-Status
 
-#Redirection
+Redirection
 
     300: Multiple Choices
     301: Moved Permanently
@@ -40,7 +42,7 @@
     307: Temporary Redirect
     308: Permanent Redirect
 
-#Client-Error
+Client-Error
 
     400: Bad-Request
     401: Unauthorized
@@ -66,7 +68,7 @@
     449: Retry-With
     451: Unavailable-For-Legal-Reason
 
-#Server Error
+Server Error
 
     500: Internal-Server-Error
     501: Not-Implemented
