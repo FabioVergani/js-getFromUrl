@@ -36,7 +36,7 @@ Redirection
     301: Moved Permanently
     302: Found
     303: See Other
-➤  304: Not Modified
+    304: Not Modified
     305: Use Proxy
     306: Switch Proxy (Unused)
     307: Temporary Redirect
