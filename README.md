@@ -2,15 +2,15 @@
 
 §Readystate:
 
-	#0	UNSENT								➤ Client has been created. ('open' not called yet)
+	#0	UNSENT				➤ Client has been created. ('open' not called yet)
 
-	#1	OPENED							➤ Called: 'open'.
+	#1	OPENED				➤ Called: 'open'.
 
 	#2	HEADERS_RECEIVED		➤ Called: 'end'. (headers and status are available)
 
-	#3	LOADING							➤ Downloading. (responseText holds partial data)
+	#3	LOADING				➤ Downloading. (responseText holds partial data)
 
-	#4	DONE									➤The operation is complete.
+	#4	DONE				➤The operation is complete.
 
 
 §HttpStatusCode (0:NSHTTPURLResponse)
@@ -22,7 +22,7 @@
 
 	#Successful
 
-	➤	200: OK
+	➤      200: OK
 		201: Created
 		202: Accepted
 		203: Non-Authoritative Information
@@ -37,7 +37,7 @@
 		301: Moved Permanently
 		302: Found
 		303: See Other
-	➤	304: Not Modified
+	➤      304: Not Modified
 		305: Use Proxy
 		306: Switch Proxy (Unused)
 		307: Temporary Redirect
@@ -78,4 +78,3 @@
 		504: Gateway-Timeout
 		505: HTTP-Version-Not-Supported
 		509: Bandwidth-Limit-Exceeded
-*/
